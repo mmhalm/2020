@@ -5,6 +5,10 @@ Created on Wed May 20 09:49:25 2020
 @author: Mona
 """
 
+# This script will analyze the size of lungs from CT skans.
+# This scripts was used only for the images provided in the assignment.
+# The images used were CT images from different views (im5.png, im6.png)
+
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt

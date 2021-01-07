@@ -1,4 +1,4 @@
-# Calculates the grade average from a certain type PDF transcript of records
+# Calculates the grade average from a certain type of PDF transcript of records
 
 from PyPDF2 import PdfFileReader
 import re

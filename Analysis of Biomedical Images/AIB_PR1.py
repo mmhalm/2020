@@ -5,6 +5,13 @@ Created on Sat May  9 18:45:01 2020
 @author: Mona
 """
 
+# This script will analyse from given images the amount of red
+# vessels in the eye showing. It categorizes images into three
+# categories based on the redness of the eye. 
+# The input images were close up images
+# from an eye, sometimes containing eyelid or eyelashes
+# or part of the iris too (see BN_024_1.1.jpg for reference).
+
 import numpy as np
 import cv2
 from matplotlib import pyplot as plt
@@ -20,11 +27,6 @@ BT03c = cv2.imread("BT_03_1.BMP")
 BT04c = cv2.imread("BT_04_1.BMP")
 BT12c = cv2.imread("BT_12_2.5.BMP")
 BT13c = cv2.imread("BT_13_2.BMP")
-
-# cat1= [BN15c, BN19c, BN24c, BT03c, BT04c]
-# cat2= [BN58c, BT13c]
-# cat25= [BN12c, BT12c]
-# cat3= [BN56c]
 
 imgOrderedC = [BN15c, BN19c, BN24c, BT03c, BT04c, BN58c, BT13c, BN12c , BT12c, BN56c]
 

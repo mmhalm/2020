@@ -1,0 +1,5 @@
+Scripts of type .ijm are written in ImageJ / Fiji macro language and they
+can be used in Fiji, a software used for biomedical image analysis.
+These scripts were made to make the analysis of certain type of 
+biomedical images more automatized and faster. Some of the scripts need
+certain plugins in order to work correctly.
