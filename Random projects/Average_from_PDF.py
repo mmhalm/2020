@@ -3,7 +3,9 @@
 from PyPDF2 import PdfFileReader
 import re
 
-pdf = PdfFileReader('transcript.pdf')
+# change the path to your ToR here
+tor = "/Users/transcript.pdf"
+pdf = PdfFileReader(tor)
 
 def pdf2txt(pdf):
     with open('transcript.txt', 'w') as f:
@@ -60,6 +62,7 @@ def getAverage(gradesList):
 
     return (average, total, length)
 
+pdf2txt(pdf)
 grades=textAnalysis()
 print(grades)
 print(getAverage(grades))
