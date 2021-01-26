@@ -15,7 +15,7 @@ specific explanation for each project there within the folders.
 This folder consists of projects that were done during the summer 2020 in order to automate biomedical image analysis for the research
 group I was working with during the summer. I learned the macro language over the summer with only prior knowledge of Python.
 Therefore, the macro scripts are far from perfect, but they work and in case of a need those could be perfected now that I have
-gained som knowledge of Java too. 
+gained som knowledge of Java too, since the macro language reminds Java. 
 The scripts in this folder are mainly just to see what can I do and learn during a three month period. These were only a side project
 of my work. The scripts are mainly made for the analysis of multi channel immunofluorescence images.
 
