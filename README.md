@@ -19,7 +19,3 @@ gained som knowledge of Java too, since the macro language reminds Java.
 The scripts in this folder are mainly just to see what can I do and learn during a three month period. These were only a side project
 of my work. The scripts are mainly made for the analysis of multi channel immunofluorescence images.
 
-### Random projects
-
-This folder only has one script, that was made for fun to calculate my GPA from a pdf file. You see, adding all the grades from the 
-paper and keeping count of the total number of grades was too much of a work and too tedious, so I made a script do that for me instead.
